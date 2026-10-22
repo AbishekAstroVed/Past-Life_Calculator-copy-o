@@ -383,7 +383,7 @@ const LeadForm = ({ onReportReady }) => {
 
       console.log('Passing real-time data to backend API:', payload);
 
-      const apiUrl = (import.meta.env.VITE_BACKEND_URL || "https://sprint-common-nutlike.ngrok-free.dev/past-life/report").trim();
+      const apiUrl = import.meta.env.VITE_BACKEND_URL?.trim();
       let response;
 
       try {
