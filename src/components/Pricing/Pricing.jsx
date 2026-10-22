@@ -27,19 +27,13 @@ const Pricing = ({ className = '' }) => {
     );
   }
 
-  // Format price
+  // Format price strictly from live API (no hardcoded fallback)
   let displayPrice = '';
   if (matchedPrice) {
     const code = String(matchedPrice.CurrencyCode).toUpperCase();
     const symbol = CURRENCY_SYMBOLS[code] || `${code} `;
     const amount = Math.round(matchedPrice.SellingPrice);
     displayPrice = `${symbol}${amount}`;
-  } else {
-    // Dynamic matching fallback
-    if (activeCode === 'USD' || activeCode === '1') displayPrice = 'US $ 37';
-    else if (activeCode === 'MYR' || activeCode === '3') displayPrice = 'MYR 114';
-    else if (activeCode === 'GBP' || activeCode === '5') displayPrice = '£ 30';
-    else displayPrice = '₹ 1037';
   }
 
   return (
