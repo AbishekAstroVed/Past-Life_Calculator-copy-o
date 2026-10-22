@@ -2,11 +2,11 @@ import React from 'react';
 import { usePrice } from '../../context/PriceContext';
 
 const CURRENCY_SYMBOLS = {
-  INR: '₹',
-  USD: '$',
-  MYR: 'RM ',
-  GBP: '£',
-  EUR: '€',
+  INR: '₹ ',
+  USD: 'US $ ',
+  MYR: 'MYR ',
+  GBP: '£ ',
+  EUR: '€ ',
 };
 
 const ASTROVED_STORE_URL =
@@ -36,10 +36,10 @@ const Pricing = ({ className = '' }) => {
     displayPrice = `${symbol}${amount}`;
   } else {
     // Dynamic matching fallback
-    if (activeCode === 'USD' || activeCode === '1') displayPrice = '$37';
-    else if (activeCode === 'MYR' || activeCode === '3') displayPrice = 'RM 114';
-    else if (activeCode === 'GBP' || activeCode === '5') displayPrice = '£30';
-    else displayPrice = '₹1037';
+    if (activeCode === 'USD' || activeCode === '1') displayPrice = 'US $ 37';
+    else if (activeCode === 'MYR' || activeCode === '3') displayPrice = 'MYR 114';
+    else if (activeCode === 'GBP' || activeCode === '5') displayPrice = '£ 30';
+    else displayPrice = '₹ 1037';
   }
 
   return (
