@@ -18,7 +18,7 @@ const Testimonials = () => {
       name: 'Leela',
       location: 'Mysuru',
       initial: 'L',
-      text: "Deep, respectful and genuinely insightful. Not what I expected — far better."
+      text: "Deep, respectful and genuinely insightful. Not what I expected - far better."
     }
   ];
 

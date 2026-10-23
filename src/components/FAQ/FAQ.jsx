@@ -28,16 +28,16 @@ const FAQItem = ({ question, answer, isLast }) => {
 const FAQ = () => {
   const faqs = [
     {
-      question: "Is the past-life calculator really free?",
-      answer: "Yes, the past-life calculator is completely free to use. You can access your results instantly without any charges or sign-up."
+      question: "Can past-life astrology reveal relationships from previous births?",
+      answer: "Past-life astrology can offer karmic insights through your 5th house and its lord, highlighting themes related to family, siblings, and spouse"
     },
     {
-      question: "How does Vedic astrology read past lives?",
-      answer: "Through Ketu (the south node), the 12th house, Atmakaraka and the Rahu-Ketu axis — the classical karmic significators."
+      question: "How to calculate your past life?",
+      answer: "Analyze your Rasi chart’s 5th house and its lord from the Ascendant to explore past-life karma and its influence on your present life."
     },
     {
-      question: "What is the Rahu-Ketu axis?",
-      answer: "It's the line from what your soul mastered (Ketu) to what it's here to grow into (Rahu) — your karmic direction."
+      question: "Can astrology identify a karmic relationship between two people?",
+      answer: "Karmic relationship astrology compares two birth charts to explore soul connections, past-life bonds, and karmic lessons in relationships."
     }
   ];
 

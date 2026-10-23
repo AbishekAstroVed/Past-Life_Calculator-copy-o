@@ -13,7 +13,7 @@ const HeroContent = ({ onCtaClick }) => {
       </h1>
 
       <p className="text-sm sm:text-[15px] md:text-base text-[#4a4a4a] max-w-[92%] leading-relaxed mt-1.5">
-        Your 5th house and its lord reveal the karmic patterns carried from past births. Discover your past-life karma and the lessons reflected in your birth chart — free, in seconds.
+        Your 5th house and its lord reveal the karmic patterns carried from past births. Discover your past-life karma and the lessons reflected in your birth chart - free, in seconds.
       </p>
 
       {/* Feature Highlight Pills */}
